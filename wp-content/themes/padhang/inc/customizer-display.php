@@ -94,7 +94,7 @@ add_action( 'wp_head', 'padhang_display_favicon' );
 function padhang_footer_text() {
 	$footer_text = get_theme_mod( 'footer_text' );
 
-	echo '<p>' . $footer_text . '</p>';
+	echo '<h4>' . $footer_text . '</h4>';
 }
 add_action( 'padhang_footer', 'padhang_footer_text' );
 

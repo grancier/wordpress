@@ -1184,6 +1184,7 @@ a:active {
 	margin: 0 auto;
 }
 .site-footer .powered {
+        display: none;
 	font-size: 14px;
 }
 
