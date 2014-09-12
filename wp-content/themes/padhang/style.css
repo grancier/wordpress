@@ -139,7 +139,7 @@ textarea {
 	font-family: "Roboto", sans-serif;
 	font-size: 16px;
 	font-size: 1.6rem;
-	line-height: 1.6;
+	line-height: 90%;
 }
 h1, h2, h3, h4, h5, h6 {
 	clear: both;
@@ -167,7 +167,6 @@ h6 {
 p {
 	margin-bottom: 1.5em;
 	text-align: justify;
-	text-indent: 1.5em;
 }
 b, strong {
 	font-weight: bold;
@@ -180,6 +179,8 @@ blockquote {
 	font-family: "Roboto Slab", serif;
 	font-weight: 300;
 	font-style: italic;
+	margin-top: 4em;
+	margin-bottom: 4em;
 }
 address {
 	margin: 0 0 1.5em;
@@ -551,6 +552,10 @@ a:active {
 	margin: 0 auto 3rem;
 }
 
+.caption {
+        font-size: 12px;
+}
+
 /*--------------------------------------------------------------
 3.1 Navigation
 --------------------------------------------------------------*/
@@ -722,6 +727,7 @@ a:active {
 	color: #252525;
 	overflow: hidden;
 	text-overflow: ellipsis;
+	line-height: 100%;
 }
 .entry-title a {
 	color: #252525;
@@ -743,8 +749,7 @@ a:active {
 }
 
 .featured-image {
-	margin: 0 0 2rem;
-	opacity: 0.9;
+	opacity: 1.0;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
@@ -761,7 +766,21 @@ a:active {
 	line-height: 1.8;
 	overflow: hidden;
 	text-overflow: ellipsis;
+	margin-top: 4.0em;
 }
+
+.entry-content > p:first-of-type:first-letter {
+        float: left;
+        margin-right: 3px;
+        padding: inherit;
+	font-size: 4em;
+	font-family: "proxima_nova_rgbold","Helvetica Neue",Helvetica,Arial,sans-serif;
+        line-height: 1;
+        text-indent: 0px;
+	background: none repeat scroll 0% 0% transparent;
+	color: #113850;
+}
+
 .page-links {
 	clear: both;
 	margin: 0 0 1.5em;
