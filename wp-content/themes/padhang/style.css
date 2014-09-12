@@ -678,7 +678,8 @@ a:active {
 	max-width: 1024px;
 	margin: 0 auto;
 	padding: 2rem;
-	background: #fff;
+        background: rgb(255, 255, 255);
+	background: rgba(255, 255, 255, 0.9);
 }
 
 .content-area {
