@@ -12,6 +12,7 @@
 			<div class="featured-image">
 				<?php the_post_thumbnail('full'); ?>
 			</div>
+                        <?php echo '<span class="caption">' . get_post( get_post_thumbnail_id() )->post_excerpt . '</span>'; ?>
 		<?php endif; ?>
 
 		
