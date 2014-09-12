@@ -675,7 +675,7 @@ a:active {
 --------------------------------------------------------------*/
 .site-content {
 	width: 96%;
-	max-width: 1024px;
+	max-width: 800px;
 	margin: 0 auto;
 	padding: 2rem;
         background: rgb(255, 255, 255);
@@ -683,7 +683,7 @@ a:active {
 }
 
 .content-area {
-	width: 72%;
+	width: 90%;
 	margin: 0 auto;
 }
 
@@ -712,7 +712,6 @@ a:active {
 4.1 Posts and pages
 --------------------------------------------------------------*/
 .hentry {
-	padding: 4rem 0;
 	border-bottom: 1px solid #eee
 }
 
